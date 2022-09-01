@@ -23,7 +23,8 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: inganyoyo/myweb:<TAG>
+      #- image: inganyoyo/myweb:<TAG>
+      - image: inganyoyo/myweb
         imagePullPolicy: Always
         name: myweb
 
